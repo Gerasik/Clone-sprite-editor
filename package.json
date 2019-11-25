@@ -20,7 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "gif.js.optimized": "^1.0.1",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.13"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
