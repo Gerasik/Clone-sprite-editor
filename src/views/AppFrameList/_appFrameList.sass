@@ -1,0 +1,86 @@
+$main-color: #000
+$hover-main-color: #ff0
+.frame-list
+  align-self: flex-start
+  padding: 10px 0
+  font-size: 14px
+  overflow-y: auto
+  max-height: 90%
+  position: relative
+  &__frame,
+  &__add-frame
+    width: 80px
+    height: 80px
+    border: 3px solid $main-color
+    border-radius: 5px
+    display: flex
+    justify-content: center
+    align-items: center
+    transition: all 0.2s ease-out
+    &.frame-list__curr-frame,
+    &:hover
+      border-color: $hover-main-color
+      span:nth-child(1)
+        color: $main-color
+      .frame-list__remove,
+      .frame-list__copy,
+      .frame-list__move
+        display: flex
+      .frame-list__number
+        background-color: $hover-main-color
+    &.frame-list__curr-frame
+      span:nth-child(1)
+        color: $main-color
+        background-color: $hover-main-color
+  &__add-frame
+    cursor: pointer
+    span:nth-child(1)
+      font-family: 'Awesome'
+      font-size: 24px
+      margin: auto 5px auto 5px
+      transition: all 0.2s ease-out
+  &__frame
+    position: relative
+    &.over
+      border: 3px dashed $hover-main-color
+      background-color: red
+    canvas
+      width: 100%
+      height: 100%
+      image-rendering: pixelated
+      pointer-events: none
+  &__number,
+  &__remove,
+  &__copy,
+  &__move
+    position: absolute
+    width: 20px
+    height: 20px
+    display: flex
+    justify-content: center
+    align-items: center
+  &__remove,
+  &__copy,
+  &__move
+    font-family: 'Awesome'
+    cursor: pointer
+    background-color: $hover-main-color
+    display: none
+  &__number
+    top: 0
+    left: 0
+    border-bottom-right-radius: 5px
+    background-color: $main-color
+    color: #fff
+  &__remove
+    top: 0
+    right: 0
+    border-bottom-left-radius: 5px
+  &__copy
+    left: 0
+    bottom: 0
+    border-top-right-radius: 5px
+  &__move
+    bottom: 0
+    right: 0
+    border-top-right-radius: 5px

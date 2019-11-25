@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppMainCanvas.prototype.render Should be render main canvas 1`] = `"<section class=\\"main\\"><canvas width=\\"undefined\\" height=\\"undefined\\" class=\\"main__canvas-image canvas-image\\"></canvas><canvas width=\\"undefined\\" height=\\"undefined\\" class=\\"main__canvas-prev canvas-prev\\"></canvas></section>"`;

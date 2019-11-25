@@ -1,0 +1,31 @@
+$color: #6f6f6f
+$color-text: #545454
+
+.page-header
+  width: 100%
+  display: flex
+  justify-content: space-between
+  align-items: center
+  border-bottom: 3px solid $color
+  box-shadow: 0 0 15px 5px $color
+  color: $color-text
+  &__menu-button,
+  &__position
+    margin: 5px 20px
+    background-color: inherit
+    border: none
+    div
+      background: $color
+      margin: 8px 0px
+  &__menu-button
+    div
+      height: 3px
+      width: 30px
+  &__title
+    font-size: 24px
+    flex-grow: 1
+  &__position
+    div
+      height: 5px
+      width: 5px
+      border-radius: 50%

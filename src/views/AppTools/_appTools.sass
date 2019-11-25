@@ -1,0 +1,65 @@
+$main-color: black
+$bgc-color: #fff
+.tools
+  padding: 5px
+  margin: 10px
+  max-width: 100px
+  display: flex
+  flex-flow: column
+  background-color: $bgc-color
+  &__active
+    box-shadow: inset 0 0 6px -1px black
+  &__item
+    padding: 5px
+    margin: 5px
+    width: 40px
+    height: 40px
+    cursor: pointer
+    span
+      font-family: 'Awesome'
+      font-size: 24px
+      color: $main-color
+  &__square
+    span
+      color: transparent
+      border: 3px solid black
+  &__circle
+    span
+      border-radius: 50%
+      color: transparent
+      border: 3px solid black
+  &__mirror
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      background-color: #EFEFEF
+      width: 5px
+      height: 90%
+      top: 0
+      left: 16px
+  &__line
+    span
+      border-bottom: 4px solid $main-color
+  &__bar
+    border-bottom: 1px solid $main-color
+    margin-bottom: 5px
+    padding-bottom: 5px
+  &__color-list
+    display: flex
+    justify-content: space-around
+    input[type='color']
+      background-color: #fff
+      width: 40px
+      border: inherit
+      padding: 0
+      margin: 0
+    span
+      font-family: 'Awesome'
+      font-size: 22px
+      color: $main-color
+      cursor: pointer
+.cursorPositon
+  position: fixed
+  bottom: 20px
+  right: 20px

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppAnimationPlayer.prototype.render Should be render container 1`] = `
+"<section class=\\"player\\"><canvas class=\\"player__player\\" width=\\"20\\" height=\\"20\\"></canvas>
+                                <span class=\\"player__full-size\\"></span>
+                                <span class=\\"player__number\\">FPS: 12</span>
+                                <input class=\\"player__frequency\\" type=\\"range\\" min=\\"1\\" max=\\"24\\" value=\\"12\\" step=\\"1\\"></section>"
+`;

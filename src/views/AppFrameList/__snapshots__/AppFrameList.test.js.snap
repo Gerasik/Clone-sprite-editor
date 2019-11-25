@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppFrameList.prototype.render Should be render slide 1`] = `
+"<div><span class=\\"frame-list__number\\">1</span></div><div><span class=\\"frame-list__number\\">2</span></div><div><span class=\\"frame-list__number\\">2</span></div><div><canvas width=\\"5\\" height=\\"5\\"></canvas></div><div class=\\"frame-list__frame frame-list__curr-frame\\" draggable=\\"true\\"><span class=\\"frame-list__number\\">4</span><span class=\\"frame-list__remove\\"></span><span class=\\"frame-list__copy\\"></span><span class=\\"frame-list__move\\"></span><canvas width=\\"10\\" height=\\"10\\"></canvas></div><section class=\\"frame-list\\"><div class=\\"frame-list__add-frame\\">
+                              <span></span>
+                              <span>Add new frame</span>
+                           <div></div></div></section>"
+`;

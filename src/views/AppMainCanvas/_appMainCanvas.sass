@@ -1,0 +1,16 @@
+.main-canvas
+  flex-grow: 1
+  align-self: stretch
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+  &__canvas-prev,
+  &__canvas-image
+    image-rendering: pixelated
+    max-width: 100%
+    min-width: 50%
+  &__canvas-prev
+    position: absolute
+  &__canvas-image
+    background-color: white

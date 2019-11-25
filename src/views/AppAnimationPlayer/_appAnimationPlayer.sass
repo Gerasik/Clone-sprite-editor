@@ -1,0 +1,31 @@
+.animation-player
+  background-color: white
+  padding: 10px
+  align-self: flex-start
+  width: 225px
+  position: relative
+  &:-webkit-full-screen
+    .animation-player
+      &__player
+        height: 100%
+      &__number,
+      &__frequency
+        display: none
+  &__player
+    border: 1px solid black
+    margin: 0 auto
+    width: 100%
+    image-rendering: pixelated
+  &__full-size
+    font-family: 'Awesome'
+    position: absolute
+    top: 10px
+    right: 10px
+    font-size: 24px
+    padding: 5px
+    display: none
+    background-color: #fff
+    cursor: pointer
+  &:hover
+    .animation-player__full-size
+      display: inline-block

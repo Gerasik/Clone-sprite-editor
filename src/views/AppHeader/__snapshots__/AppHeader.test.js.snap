@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader.prototype.render Should be render slide 1`] = `
+"<header class=\\"undefined\\"><button class=\\"undefined__menu-button\\"><div></div><div></div><div></div></button>
+                        <h1 class=\\"undefined__title\\">Piskel Clone</h1>
+                        <button class=\\"undefined__position\\"><div></div><div></div><div></div></button></header>"
+`;
