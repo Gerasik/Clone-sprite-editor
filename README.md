@@ -1,13 +1,13 @@
-#Piskel Clone
+# Piskel Clone
 
-##NPM commands
+## NPM commands
 
-npm run dev: "webpack-dev-server --mode development --watch",
-npm run build: "webpack --mode production",
-npm run test: "jest",
-npm run coverage: "jest --coverage"
+- npm run dev: "webpack-dev-server --mode development --watch",
+- npm run build: "webpack --mode production",
+- npm run test: "jest",
+- npm run coverage: "jest --coverage"
 
-##hotkey
+## hotkey
 
 | p - pen |
 | e - erase |
